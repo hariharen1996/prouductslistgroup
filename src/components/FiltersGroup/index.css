@@ -1,0 +1,105 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  background: #f1f5f9;
+  outline: none;
+  border: none;
+  padding: 10px;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: 8%;
+  top: 25%;
+}
+
+.category-heading {
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.category-items {
+  color: #64748b;
+  font-size: 14px;
+  cursor: pointer;
+}
+.rating-options {
+  display: flex;
+}
+
+.ratings-text {
+  cursor: pointer;
+}
+
+.ratings-cards {
+  background: none;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.ratings-heading {
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.ratings-img {
+  width: 100px;
+  background: none;
+  cursor: pointer;
+}
+
+.clear-container {
+  margin-top: 10px;
+}
+
+.clear-btn {
+  padding: 5px 14px;
+  border: 1px solid #0967d2;
+  border-radius: 5px;
+  background: none;
+  color: #0967d2;
+}
+
+.active-category {
+  color: #0967d2;
+}
+
+.active-rating {
+  color: #0967d2;
+}
+
+.ratings-text {
+  color: #64748b;
+}
+
+.category-text {
+  color: #64748b;
+}
+
+li {
+  list-style: none;
+}
